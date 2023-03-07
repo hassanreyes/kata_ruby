@@ -1,0 +1,47 @@
+#binaries
+bin/*
+
+# editors 
+.idea
+.vscode
+
+.DS_Store
+*.DS_Store
+**/.DS_Store
+.idea
+
+.env
+
+coverage
+
+*.lock
+
+# Ignore bundler config
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*
+!/log/.keep
+/tmp/*
+!/tmp/.keep
+nohup.out
+
+# From Github official .ignore
+
+*.rbc
+capybara-*.html
+/log
+/tmp
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/public/system
+/coverage/
+/spec/tmp
+*.orig
+rerun.txt
+pickle-email-*.html
+tags
+
+## Environment normalisation:
+/.bundle
+/vendor/bundle
